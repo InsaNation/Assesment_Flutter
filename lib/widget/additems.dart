@@ -12,7 +12,7 @@ class AddItems extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 20.0, vertical: 10.0),
+                padding: EdgeInsets.symmetric(horizontal: 10.0, vertical: 10.0),
                 margin: EdgeInsets.only(right: 18.0),
                 child: Text(
                   'Foto',
@@ -26,7 +26,7 @@ class AddItems extends StatelessWidget {
                 ),
               ),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 20.0, vertical: 10.0),
+                padding: EdgeInsets.symmetric(horizontal: 10.0, vertical: 10.0),
                 margin: EdgeInsets.only(right: 10.0),
                 child: Text(
                   'Nama Produk',
@@ -40,7 +40,7 @@ class AddItems extends StatelessWidget {
                 ),
               ),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 20.0, vertical: 10.0),
+                padding: EdgeInsets.symmetric(horizontal: 10.0, vertical: 10.0),
                 margin: EdgeInsets.only(right: 10.0),
                 child: Text(
                   'Harga',
@@ -54,7 +54,7 @@ class AddItems extends StatelessWidget {
                 ),
               ),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 20.0, vertical: 10.0),
+                padding: EdgeInsets.symmetric(horizontal: 10.0, vertical: 10.0),
                 child: Text(
                   'Aksi',
                   style: GoogleFonts.inter(
@@ -117,7 +117,7 @@ class AddItems extends StatelessWidget {
                     ),
                   ],
                 ),
-                SizedBox(width: 30),
+                SizedBox(width: 20),
                 Column(
                   children: [
                     Row(
@@ -133,7 +133,7 @@ class AddItems extends StatelessWidget {
                             ),
                           ),
                         ),
-                        SizedBox(width: 20),
+                        SizedBox(width: 15),
                         IconButton(
                           icon: Icon(Icons.delete_outlined, color: Colors.red),
                           onPressed: () {
@@ -187,7 +187,7 @@ class AddItems extends StatelessWidget {
                     ),
                   ],
                 ),
-                SizedBox(width: 40),
+                SizedBox(width: 20),
                 Column(
                   children: [
                     Row(
@@ -203,7 +203,7 @@ class AddItems extends StatelessWidget {
                             ),
                           ),
                         ),
-                        SizedBox(width: 24),
+                        SizedBox(width: 15),
                         IconButton(
                           icon: Icon(Icons.delete_outlined, color: Colors.red),
                           onPressed: () {
@@ -266,7 +266,7 @@ class AddItems extends StatelessWidget {
                     ),
                   ],
                 ),
-                SizedBox(width: 30),
+                SizedBox(width: 20),
                 Column(
                   children: [
                     Row(
@@ -282,7 +282,7 @@ class AddItems extends StatelessWidget {
                             ),
                           ),
                         ),
-                        SizedBox(width: 20),
+                        SizedBox(width: 15),
                         IconButton(
                           icon: Icon(Icons.delete_outlined, color: Colors.red),
                           onPressed: () {
